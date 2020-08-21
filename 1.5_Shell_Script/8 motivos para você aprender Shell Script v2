@@ -1,0 +1,61 @@
+Fonte: https://www.escolalinux.com.br/blog/8-motivos-para-voce-aprender-shell-script
+
+8 motivos para você aprender shell script!
+------------------------------------------
+
+O Shell Script é uma ferramenta muito poderosa utilizada na automação de instrução, onde através um arquivo .txt executável o usuário ou até mesmo o sistema pode executar uma operação ou uma sequência de operações, instruções ou até mesmo testes.
+
+O uso mais convencional do Shell Script é executável para instalação/configuração ou geração de dados para criação de relatórios. Tratamos essa ferramenta como poderosa pois qualquer sequência de instruções que sejam realizadas com regularidade que possa ser automatizada, pode ser implementada com Shell Script. Saiba mais!
+
+Por que o Shell Script é tão valorizado?
+----------------------------------------
+
+A facilidade que o Shell Script promove na vida do usuário e também do administrador do sistema faz que ele seja muito valorizado. Qualquer automatização de tarefas agiliza a velocidade da entrega e ainda agrega confiabilidade ao processo, que antes poderia haver erros por ser 100% manual. Você não precisa mais copiar e colar 50 vezes o e-mail para todos os destinatários de um e-mail ou ainda utilizar mala direta para realizar essa tarefa, você pode simples utilizar o Shell Script para:
+
+ - Criar um arquivo .txt para enviar a mensagem com assinatura;
+ - Criar um arquivo .txt com os nomes de todos os destinatários;
+ - Criar um script que realiza a leitura dos nomes um por um do arquivo e depois coloca a mensagem do arquivo.txt, e depois utilizar a função “Enviar E-mail”.
+
+8 motivos para você aprender Shell Script
+-----------------------------------------
+
+#1 Diversas partes de uma distribuição Linux usam Shell Script, como:
+
+	a) Sistemas de empacotamento: scripts utilizados para criação de pacotes;
+
+	b) Init systems: utilizam o shell script para controle dos serviços;
+
+	c) Grub: Os arquivos de boot são Shell Script;
+
+A lista é bem extensa, esses foram apenas alguns exemplos.
+
+#2 Shell Script também é diversão: Pode soar estranho, mas é divertido e prazeroso você ver uma tarefa que antes era executada manualmente, ser realizada pelo seu script, com sua a lógica e do seu jeito. Você fica orgulhoso pela sua criação e no momento em que está criando, você também está se divertindo.
+
+#3 Alta valorização no mercado de trabalho: A demanda por profissionais que sejam aptos a atuar com as diversas tecnologias que surgiram, como Docker e OpenStack são altas, porém eles também procuram pelos profissionais que conhecem Shell Script, você sabe porquê?
+
+	a) Docker: Você utiliza Shell Script dentro do arquivo que realiza a definição de um container;
+	b) OpenStack: Você consegue executar o script do Shell ainda no primeiro boot da máquina virtual;
+
+#4 Ser um bom desenvolvedor em Shell Script faz com que as oportunidades cresçam e desta forma o valor do profissional no mercado de trabalho. Isso resulta no crescimento salarial e profissional.
+
+#5 Ter um currículo de peso: Qualquer profissional que tenha a intenção de trabalhar com Linux, precisa ter um alto domínio sobre Shell Script. Você pode atuar nas mais variadas áreas, mas você precisará interpretar Shells criados por outras pessoas e criar seus próprios Scripts. Existem vagas de emprego direcionadas para profissionais que tenham Shell no currículo.
+
+#6  As tecnologias estão em constante mudança. Apesar disso, o Shell Script, não sofreu grandes alteralções firmando-o como uma ferramenta robusta e estável.
+
+#7 No Shell Script existem dois modos que podem ser executados, o modo interativo e o modo não interativo. Entender o Shell Script e suas diferentes formas de escrever "a mesma coisa", auxilia o conhecimento como um todo e deixa mais fascinante compreender como programar nele.
+
+#8 Progressão Promissora da Carreira: Enquanto a demanda continua a crescer para o talento de scripts em shell, ainda existe uma escassez de profissionais experientes no mercado. Existem oportunidades ilimitadas de progressão na carreira para desenvolvedores e administradores de sistemas qualificados.
+
+#9 Compreender o funcionamento do sistema como um todo. // Ter uma ampla compreensão para um melhor desempenho.
+
+#10 É uma linguagem amplamente utilizada, fazendo com que o conhecimento em Shell possa ser cobrado para ser Desenvolvedor. // É uma linguagem presente dentro de empresas o que pode fazer com que em determinado trabalho isso seja cobrado do Dev.
+
+
+
+
+	
+
+
+
+
+
