@@ -1,7 +1,6 @@
-body {
+article {
     display: inline-block;
     font-family: 'Roboto Slab', serif;
-    color: #333;
     font-family: Georgia, serif;
     font-size: 20px;
     font-weight: normal;
@@ -11,13 +10,38 @@ body {
     text-align: justify;
 }
 
+aside {
+    width: 40%;
+    padding-left: .5rem;
+    margin-left: .5rem;
+    float: right;
+    box-shadow: inset 5px 0 5px -5px #29627e;
+    font-style: italic;
+    color: #29627e;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+
+nav a{
+    margin-right: 10px;
+}
+
 p {
     display: block;
     margin-bottom: 25px;
     margin-top: 25px;
 }
 
-h1{
+.title{
     text-align: left;
 }
 
