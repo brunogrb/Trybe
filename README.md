@@ -6,7 +6,7 @@ This repository contains all learning activities developed by *[Bruno Sordi Lope
 
 The program has more than **1,500 hours** of classroom and online classes and covers front-end, back-end, computer science, software engineering, agile methodologies, and soft skills.
 
-## Introduction - Web Development :white_check_mark:
+## Introduction - Web Development :hourglass_flowing_sand:
 ##### Block 1: Introduction - Unix & Shell
 - [x] 1-3: *Unix & Bash - Part 1*
 - [x] 1-4: *Unix & Bash - Part 2*
@@ -37,7 +37,7 @@ The program has more than **1,500 hours** of classroom and online classes and co
 - [ ] 5-4: *[Project - Guess the Color]()*
 - [ ] 5-5: *[Project - Mysterious Card]()*
 
-## Front-end development :white_check_mark:
+## Front-end development :hourglass_flowing_sand:
 ##### Block 6: Introduction - Front-end
 - [ ] 6-1: *HTML & CSS - Forms*
 - [ ] 6-2: *JavaScript libraries and CSS frameworks*
