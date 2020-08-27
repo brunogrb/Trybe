@@ -1,45 +1,45 @@
-- 1 Faça cinco programas, um para cada operação aritmética básica. Seu programa deve ter duas variáveis, a e b, definidas no começo com os valores que serão operados. Faça programas para:
-Adição
-Subtracão
-Multiplicação
-Divisão
-Módulo
+- 1 Make five programs, one for each basic arithmetic operation. Your program must have two variables, a and b, defined at the beginning with the values to be operated. Make programs for:
+Addition
+Subtraction
+Multiplication
+Division
+Module
 
-- 2 Faça um programa que retorne o maior de dois números. Defina no começo do programa duas variáveis com os valores que serão comparados.
+- 2 Make a program that returns the greater of two numbers. Define two variables at the beginning of the program with the values to be compared.
 
-- 3 Faça um programa que retorne o maior de três números. Defina no começo do programa três variáveis com os valores que serão comparados.
+- 3 Make a program that returns the largest of three numbers. Define three variables at the beginning of the program with the values to be compared.
 
-- 4 Faça um programa que, dado um valor definido numa variável, retorne "positive" se esse valor for positivo, "negative" se for negativo e "zero" caso contrário.
+- 4 Make a program that, given a value defined in a variable, returns "positive" if that value is positive, "negative" if it is negative and "zero" otherwise.
 
-- 5 Faça um programa que defina três variáveis com os valores dos três ângulos internos de um triângulo. Retorne true se os ângulos representarem os ângulos de um triângulo e false caso contrário. *Para os ângulos serem de um triângulo válido, a soma dos três deve ser 180 graus. Caso os ângulos estejam inválidos, o programa deve retornar uma mensagem de erro.*
+- 5 Make a program that defines three variables with the values of the three internal angles of a triangle. Return true if the angles represent the angles of a triangle and false otherwise. * For the angles to be a valid triangle, the sum of the three must be 180 degrees. If the angles are invalid, the program should return an error message. *
 
-- 6 Escreva um programa que receba o nome de uma peça de xadrez e retorne os movimentos que ela faz.
-    *Como desafio, faça o programa funcionar tanto se receber o nome de uma peça com letras maiúsculas quanto com letras minúsculas, sem aumentar a quantidade de condicionais.*
-    *Como dica, você pode pesquisar uma função que faz uma string ficar com todas as letras minúsculas (lower case).*
-    *Se a peça passada for inválida, o programa deve retornar uma mensagem de erro.*
-    *Exemplo: bishop -> diagonals*
+- 6 Write a program that is named after a chess piece and returns the movements it makes.
+     - As a challenge, make the program work both if you receive the name of a part with uppercase letters and with lowercase letters, without increasing the number of conditionals. *
+     - As a hint, you can search for a function that makes a string have all lower case letters. *
+     - If the part passed is invalid, the program should return an error message. *
+     - Example: bishop -> diagonals *
 
-- 7 Escreva um programa que converte uma nota dada em porcentagem (de 0 a 100) em conceitos de A a F. Siga essas regras:
-    -Porcentagem >= 90 -> A
-    -Porcentagem >= 80 -> B
-    -Porcentagem >= 70 -> C
-    -Porcentagem >= 60 -> D
-    -Porcentagem >= 50 -> E
-    -Porcentagem < 50 -> F
-    -O programa deve retornar uma mensagem de erro e encerrar se a nota passada for menor que 0 ou maior que 100.
+- 7 Write a program that converts a grade given in percentage (from 0 to 100) into concepts from A to F. Follow these rules:
+     - Percentage> = 90 -> A
+     - Percentage> = 80 -> B
+     - Percentage> = 70 -> C
+     - Percentage> = 60 -> D
+     - Percentage> = 50 -> E
+     - Percentage <50 -> F
+     - The program should return an error message and end if the grade passed is less than 0 or greater than 100.
 
-- 8 Escreva um programa que defina três números em variáveis no seu começo e retorne true se pelo menos uma das três for par. Caso contrário, ele retorna false.
-    -Bonus: use somente um if.
+- 8 Write a program that defines three numbers in variables at the beginning and returns true if at least one of the three is even. Otherwise, it returns false.
+    - Bonus: use only an if.
 
-- 9 Escreva um programa que defina três números em variáveis no seu começo e retorne true se pelo menos uma das três for ímpar. Caso contrário, ele retorna false.
-    -Bonus: use somente um if.
+- 9 Write a program that defines three numbers in variables at the beginning and returns true if at least one of the three is odd. Otherwise, it returns false.
+    - Bonus: use only an if.
 
-- 10 Escreva um programa que se inicie com dois valores em duas variáveis diferentes: o custo de um produto e seu valor de venda. A partir dos valores, calcule quanto de lucro (valor de venda descontado o custo do produto) a empresa terá ao vender mil desses produtos.
-    -Atente que, sobre o custo do produto, incide um imposto de 20%.
-    -Seu programa também deve emitir uma mensagem de erro e encerrar caso algum dos seus valores de entrada seja menor que zero.
-    -O lucro de um produto é o resultado da subtração do valor de venda pelo custo do mesmo, sendo que o imposto de 20% também faz parte do valor de custo.
-    -valorCustoTotal = valorCusto + impostoSobreOCusto
-    -lucro = valorVenda - valorCustoTotal (lucro de um produto)
+- 10 Write a program that starts with two values ​​in two different variables: the cost of a product and its sales value. From the values, calculate how much profit (sales value less the cost of the product) the company will have when selling 1,000 of these products.
+    - Note that a 20% tax is levied on the cost of the product.
+    - Your program should also issue an error message and close if any of its input values ​​is less than zero.
+    - The profit of a product is the result of subtracting the sale value from the cost of the product, and the 20% tax is also part of the cost value.
+    - valueCostTotal = valueCost + taxAboutCost
+    - profit = salesValue - TotalCost (profit from a product)
 
 - 11 Uma pessoa que trabalha de carteira assinada no Brasil tem descontados de seu salário bruto o INSS e o IR. Faça um programa que, dado um salário bruto, calcule o líquido a ser recebido.
     -A notação para um salário de R$1500,10, por exemplo, deve ser 1500.10. Para as faixas de impostos, use as seguintes referências:
