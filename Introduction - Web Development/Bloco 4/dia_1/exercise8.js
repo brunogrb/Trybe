@@ -1,11 +1,5 @@
-let nota = 60;
+let num1 = 61;
+let num2 = 31;
+let num3 = 43;
 
-if(nota>100 || nota<0)
-{
-    console.log("Invalid Grade");
-}else if(nota>=90) return console.log("Grade A");
-else if(nota>=80) return console.log("Grade B");
-else if(nota>=70) return console.log("Grade C");
-else if(nota>=60) return console.log("Grade D");
-else if(nota>=50) return console.log("Grade E");
-else return console.log("Grade F");
+if(num1%2 == 0 || num2%2 == 0 || num3%2 == 0) return console.log(true); else return console.log(false);
