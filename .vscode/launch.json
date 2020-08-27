@@ -11,7 +11,7 @@
             "skipFiles": [
                 "<node_internals>/**"
             ],
-            "program": "${workspaceFolder}/Introduction - Web Development/Bloco 4/dia_1/script1.js"
+            "program": "${file}"
         }
     ]
 }
