@@ -41,16 +41,16 @@ Module
     - valueCostTotal = valueCost + taxAboutCost
     - profit = salesValue - TotalCost (profit from a product)
 
-- 11 Uma pessoa que trabalha de carteira assinada no Brasil tem descontados de seu salário bruto o INSS e o IR. Faça um programa que, dado um salário bruto, calcule o líquido a ser recebido.
-    -A notação para um salário de R$1500,10, por exemplo, deve ser 1500.10. Para as faixas de impostos, use as seguintes referências:
+- 11 A person working with a formal contract in Brazil has the INSS and the IR deducted from his gross salary. Make a program that, given a gross salary, calculates the net to be received.
+    -The notation for a salary of R $ 1500.10, for example, must be 1500.10. For tax ranges, use the following references:
     -INSS
-        -Salário bruto até R$ 1.556,94: alíquota de 8%
-        -Salário bruto de R$ 1.556,95 a R$ 2.594,92: alíquota de 9%
-        -Salário bruto de R$ 2.594,93 a R$ 5.189,82: alíquota de 11%
-        -Salário bruto acima de R$ 5.189,82: alíquota máxima de R$ 570,88
+        - Gross salary up to R $ 1,556.94: 8% rate
+        - Gross salary from R $ 1,556.95 to R $ 2,594.92: 9% rate
+        - Gross salary from R $ 2,594.93 to R $ 5,189.82: 11% rate
+        - Gross salary above R $ 5,189.82: maximum rate of R $ 570.88
     -IR
-        -Até R$ 1.903,98: isento de imposto de renda
-        -De R$ 1.903,99 a 2.826,65: alíquota de 7,5% e parcela de R$ 142,80 a deduzir do imposto
-        -De R$ 2.826,66 a R$ 3.751,05: alíquota de 15% e parcela de R$ 354,80 a deduzir do imposto
-        -De R$ 3.751,06 a R$ 4.664,68: alíquota de 22,5% e parcela de R$ 636,13 a deduzir do imposto
-        -Acima de R$ 4.664,68: alíquota de 27,5% e parcela de R$ 869,36 a deduzir do imposto.
+        -Up to R $ 1,903.98: exempt from income tax
+        -From R $ 1,903.99 to 2,826.65: rate of 7.5% and installment of R $ 142.80 to be deducted from tax
+        -From R $ 2,826.66 to R $ 3,751.05: rate of 15% and installment of R $ 354.80 to be deducted from tax
+        -From R $ 3,751.06 to R $ 4,664.68: rate of 22.5% and installment of R $ 636.13 to be deducted from tax
+        - Above R $ 4,664.68: rate of 27.5% and installment of R $ 869.36 to be deducted from tax.
