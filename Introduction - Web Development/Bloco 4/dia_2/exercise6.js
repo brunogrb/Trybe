@@ -5,4 +5,5 @@ for (let i=0; i<numbers.length;i++){
     if(numbers[i]%2!=0) {counter++;}
 }
 
-console.log(counter);
+if(counter==0) return console.log("no odd values found");
+else return console.log(counter);
