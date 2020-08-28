@@ -22,3 +22,25 @@ Read the statements carefully and do as you are asked! You will use this array t
 8. Using *for*, create an array that goes from 1 to 25 and print the result;
 
 9. Using the array created in the previous exercise, print the result of dividing each of the elements by **2**.
+
+## **Bonus**
+
+For the next two exercises read [this article](http://http://devfuria.com.br/logica-de-programacao/introducao-ao-algoritmo-de-ordenacao-bubble-sort/) and try to understand what is happening in the code below:
+
+for (let i = 1; i < array.length; i++) {
+for (let j = 0; j < i; j++) {
+    if (array[i] < array[j]) {
+    let position = array[i];
+
+    array[i] = array[j];
+    array[j] = position;
+    }
+}
+}
+
+1. Order the array numbers in ascending order and print their values;
+
+2. Order the array numbers in descending order and print their values;
+
+3. You will now create a new array from the numbers array, without losing it. Each value of the new array must be equal to the corresponding value in the array numbers multiplied by the following. For example: the first value of the new array should be 45, as it is the multiplication of 5 (first value) and 9 (next value). The second value of the new array should be 27, since it is the multiplication of 9 (second value) and 3 (next value), and so on. If there is no next value, the multiplication must be done by 2. Do this using the *for* and the push method. The result should be the array below:
+ - [45, 27, 57, 1330, 560, 800, 200, 70, 945, 54];
