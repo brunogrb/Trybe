@@ -3,11 +3,12 @@ let n = 5;                  //base of the pyramid
 for(let i=1; i<=n-1 ; i+=1){  //loop for printing the pyramid
     let pyramid = "";
     let k = 0;
+
     for(let j=i;j<n;j+=1){  //printing spaces
         pyramid += " ";
     }
-                            //printing "*"
-    while(k != (2*i-1)){
+                            
+    while(k != (2*i-1)){    //printing "*"
         if(k==0 || k==(2*i-2)) pyramid+="*";
         else pyramid+=" ";
 
