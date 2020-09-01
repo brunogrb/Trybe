@@ -11,7 +11,7 @@ let info = {
 1.  Print a welcome message on the console to the character above, including her name.
     * Expected value on the console: Welcome, Margarida.
 
-2. Insert a new property in the object with the key name "recurring" and the value "Yes" and then print the object on the console.
+2. Insert a new property in the object with the key name "recorrente" and the value "Sim" and then print the object on the console.
     * Expected value on the console:
     {
     personagem: 'Margarida',
