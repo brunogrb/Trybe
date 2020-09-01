@@ -20,11 +20,11 @@ The program has more than **1,500 hours** of classroom and online classes and co
 - [x] 3-2: *HTML & CSS - Getting Started with CSS*
 - [x] 3-3: *HTML & CSS - Selectors and positioning*
 - [x] 3-4: *Semantic HTML*
-- [ ] 3-5: *[Project - HTML & CSS]()*
+- [x] 3-5: *[Project - HTML & CSS]()*
 ##### Block 4: Introduction - JavaScript
-- [ ] 4-1: *JavaScript - Getting Started*
-- [ ] 4-2: *JavaScript - For Array and Loop*
-- [ ] 4-3: *JavaScript - Programming Logic and Algorithms*
+- [x] 4-1: *JavaScript - Getting Started*
+- [x] 4-2: *JavaScript - For Array and Loop*
+- [x] 4-3: *JavaScript - Programming Logic and Algorithms*
 - [ ] 4-4: *JavaScript - Objects and functions*
 - [ ] 4-5: *JavaScript - DOM and selectors*
 - [ ] 4-6: *JavaScript - Working with elements*
