@@ -1,4 +1,4 @@
-function indiceMaiorValor(lista){
+function higherValueIndex(lista){
   let temp = 0;
   let posicao;
   for(let i=0; i<lista.length;i+=1){
@@ -10,4 +10,4 @@ function indiceMaiorValor(lista){
   return posicao;
 }
 
-console.log(indiceMaiorValor([2, 3, 6, 7, 10, 1]));
+console.log(higherValueIndex([2, 3, 6, 7, 10, 1]));
