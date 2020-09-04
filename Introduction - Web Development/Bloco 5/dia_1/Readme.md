@@ -1,11 +1,18 @@
 ## DOM manipulation functions
 
-* It's time to apply your knowledge in manipulating the elements of HTML!
+* Next, you'll see a snippet of HTML and CSS code.
+* Here you will modify the existing elements using only the functions:
+  - document.getElementById()
+  - document.getElementsByClassName()
+  - document.getElementsByTagName()
 
-1. Next, you'll see a snippet of HTML and CSS code.
-2. Create an HTML file inside the exercise_5.1 directory and copy the following code.
-3. Read the instructions that are inside a comment in the <script> tag.
-4. Don't forget to commit each exercise!
+  1. Create a function that changes the text in the <p> tag to a description of how you see yourself in 2 years. (Don't spend time thinking about the text, but doing the exercise)
+  2. Create a function that changes the color of the yellow square to the green of Trybe (rgb (76,164,109)).
+  3. Create a function that changes the color of the red square to white.
+  4. Create a function that corrects the text of the <h1> tag.
+  5. Create a function that changes all text in the <p> tag to uppercase.
+  6. Create a function that displays the contents of all <p> tags on the console.
+ 
 <!--
 <!DOCTYPE html>
 <html>
