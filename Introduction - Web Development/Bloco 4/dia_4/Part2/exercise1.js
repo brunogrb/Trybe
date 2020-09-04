@@ -14,3 +14,6 @@ function verificaPalindrome(palavra){
 };
 
 console.log(verificaPalindrome("arara"));
+let a =[10,2,3,7,20,31,31];
+let b = Math.max(...a);
+console.log(b);
