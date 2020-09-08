@@ -79,6 +79,21 @@
         element4.innerText = "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
         document.querySelector('.main-content .center-content').appendChild(element4);
 
+        // Exercise 5
+        let element5 = document.createElement('div');
+        element5.className = "left-content";
+        document.querySelector('.main-content').appendChild(element5);
+
+        // Exercise 6
+        let element6 = document.createElement('div');
+        element6.className = "right-content";
+        document.querySelector('.main-content').appendChild(element6);
+
+        // Exercise 7
+        let element7 = document.createElement('img');
+        element7.className = "small-image";
+        element7.setAttribute('src', 'https://picsum.photos/200');
+        document.querySelector('.left-content').appendChild(element7);
 
     </script>
 </body>
