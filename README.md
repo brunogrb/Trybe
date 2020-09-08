@@ -25,17 +25,19 @@ The program has more than **1,500 hours** of classroom and online classes and co
 - [x] 4-1: *JavaScript - Getting Started*
 - [x] 4-2: *JavaScript - For Array and Loop*
 - [x] 4-3: *JavaScript - Programming Logic and Algorithms*
-- [ ] 4-4: *JavaScript - Objects and functions*
-- [ ] 4-5: *JavaScript - DOM and selectors*
-- [ ] 4-6: *JavaScript - Working with elements*
-- [ ] 4-7: *JavaScript - Events*
-- [ ] 4-8: *JavaScript - Web Storage*
+- [x] 4-4: *JavaScript - Objects and functions*
+- [x] 4-5: *[Project - Playground Functions]()*
 ##### Block 5: Introduction - JavaScript - Projects
-- [ ] 5-1: *[Project - Meme Generator]()*
-- [ ] 5-2: *[Project - Art with Pixels]()*
-- [ ] 5-3: *[Project - To Do List]()*
-- [ ] 5-4: *[Project - Guess the Color]()*
-- [ ] 5-5: *[Project - Mysterious Card]()*
+
+- [x] 5-1: *JavaScript - DOM and selectors*
+- [x] 5-2: *JavaScript - Working with elements*
+- [ ] 5-3: *JavaScript - Events*
+- [ ] 5-4: *JavaScript - Web Storage*
+- [ ] 5-5: *[Project - Meme Generator]()*
+- [ ] 5-6: *[Project - Art with Pixels]()*
+- [ ] 5-7: *[Project - To Do List]()*
+- [ ] 5-7: *[Project - Guess the Color]()*
+- [ ] 5-7: *[Project - Mysterious Card]()*
 
 ## Front-end development :hourglass_flowing_sand:
 ##### Block 6: Introduction - Front-end
