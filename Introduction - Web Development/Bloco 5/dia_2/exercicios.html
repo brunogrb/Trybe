@@ -95,6 +95,20 @@
         element7.setAttribute('src', 'https://picsum.photos/200');
         document.querySelector('.left-content').appendChild(element7);
 
+        // Exercise 8
+        function convertToWord(number) {
+            let numeros = ['', 'um', 'dois', 'tres', 'quatro', 'cinco', 'seis', 'sete', 'oito', 'nove', 'dez'];
+            return numeros[number];
+        }
+        let list = document.createElement('ul');
+
+        for (let i = 1; i < 11; i +=1){
+            let element8 = document.createElement('li');
+            element8.innerText = convertToWord(i);
+            list.appendChild(element8);
+        }
+        document.querySelector('.right-content').appendChild(list);        
+
     </script>
 </body>
 
