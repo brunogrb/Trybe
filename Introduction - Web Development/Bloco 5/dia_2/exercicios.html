@@ -60,14 +60,14 @@
 <body>
     <script>
         // Exercise 1
-        let element = document.createElement('h1');
-        document.body.appendChild(element);
+        let element1 = document.createElement('h1');
+        document.body.appendChild(element1);
         document.getElementsByTagName('h1')[0].innerHTML = "Exercício 5.2 - JavaScript DOM";
 
         // Exercise 2
-        element = document.createElement('div');
-        element.className = "main-content";
-        document.body.appendChild(element);
+        element2 = document.createElement('div');
+        element2.className = "main-content";
+        document.body.appendChild(element2);
 
         // Exercise 3
         let element3 = document.createElement('div');
@@ -107,7 +107,22 @@
             element8.innerText = convertToWord(i);
             list.appendChild(element8);
         }
-        document.querySelector('.right-content').appendChild(list);        
+        document.querySelector('.right-content').appendChild(list);
+
+        // Exercise 9
+        for (let i = 0; i < 3; i += 1) {
+            let element9 = document.createElement('h3');
+            document.querySelector('.main-content').appendChild(element9);
+        }
+
+        // Exercise 10
+        document.querySelector('h1').className = 'title';
+
+        // Exercise 11
+        for (let i = 0; i < 3; i += 1) {
+            document.querySelectorAll('h3')[i].className = 'description';
+        }
+
 
     </script>
 </body>

@@ -12,9 +12,9 @@
 
 Now that you've created a lot, let's make some changes and removals:
 
-1. Add the title class to the created h1 tag;
-2. Add the description class to the 3 h3 tags created;
-3. Remove the div created in step 5 (the one with the left-content class). Use the .removeChild () function;
-4. Center the div created in step 6 (the one that has the right-content class). Tip: to centralize, just configure margin-right: auto do div;
-5. Change the background color of the parent element of the div created in step 3 (the one that has the center-content class) to green;
-6. Remove the last two elements (nine and ten) from the list created in step 8.
+10. Add the title class to the created h1 tag;
+11. Add the description class to the 3 h3 tags created;
+12. Remove the div created in step 5 (the one with the left-content class). Use the .removeChild () function;
+13. Center the div created in step 6 (the one that has the right-content class). Tip: to centralize, just configure margin-right: auto do div;
+14. Change the background color of the parent element of the div created in step 3 (the one that has the center-content class) to green;
+15. Remove the last two elements (nine and ten) from the list created in step 8.
