@@ -123,7 +123,21 @@
             document.querySelectorAll('h3')[i].className = 'description';
         }
 
+        // Exercise 12
+        let element12 = document.querySelector('.left-content')
+        document.querySelector('.main-content').removeChild(element12);
 
+        // Exercise 13
+        document.querySelector('div .right-content').style.marginRight = 'auto';
+
+        // Exercise 14
+        document.querySelector('.center-content').parentElement.style.backgroundColor = 'green';
+
+        // Exercise 15
+        for (let i = 0; i < 2; i +=1) {
+            let element15 = document.querySelector('ul').lastElementChild;
+            document.querySelector('ul').removeChild(element15);
+        }
     </script>
 </body>
 
