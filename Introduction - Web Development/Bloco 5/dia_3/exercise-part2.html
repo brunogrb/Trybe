@@ -35,7 +35,6 @@
         </p>
         <button id='discount-button'>Discount</button>
         <script language="javascript" type="text/javascript">
-            //JavaScript
             let botaoAlerta = document.getElementById('button-alert');
             botaoAlerta.addEventListener('click', function () { alert('Você clicou no botão'); })
             let productPrice = 59.99;
@@ -45,9 +44,9 @@
             discountButton.addEventListener('click', function () {
                 let desconto = productPrice * discount;
                 discount = discount.toString;
-                alert(`Discount of ${desconto}`);
+                alert("Discount of " + desconto);
             })
-
+            
         </script>
         <hr />
         <h2>Bônus</h2>
