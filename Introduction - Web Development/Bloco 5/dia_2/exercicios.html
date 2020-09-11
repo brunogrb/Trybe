@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Exercício 5.2</title>
+    <style>
+        div {
+            border-color: black;
+            border-style: solid;
+        }
+
+        .title {
+            text-align: center;
+        }
+
+        .main-content {
+            background-color: yellow;
+        }
+
+        .main-content .center-content {
+            background-color: red;
+            width: 50%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .main-content .center-content p {
+            font-style: italic;
+        }
+
+        .main-content .left-content {
+            background-color: green;
+            width: 60%;
+            margin-left: 0;
+            margin-right: auto;
+        }
+
+        .main-content .left-content .small-image {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            border-radius: 100%;
+        }
+
+        .main-content .right-content {
+            background-color: blue;
+            width: 60%;
+            margin-left: auto;
+            margin-right: 0;
+        }
+
+        .main-content .description {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <script>
+        // Exercise 1
+        let element1 = document.createElement('h1');
+        document.body.appendChild(element1);
+        document.getElementsByTagName('h1')[0].innerHTML = "Exercício 5.2 - JavaScript DOM";
+
+        // Exercise 2
+        element2 = document.createElement('div');
+        element2.className = "main-content";
+        document.body.appendChild(element2);
+
+        // Exercise 3
+        let element3 = document.createElement('div');
+        element3.className = "center-content";
+        document.querySelector('.main-content').appendChild(element3);
+
+        // Exercise 4
+        let element4 = document.createElement('p');
+        element4.innerText = "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+        document.querySelector('.main-content .center-content').appendChild(element4);
+
+        // Exercise 5
+        let element5 = document.createElement('div');
+        element5.className = "left-content";
+        document.querySelector('.main-content').appendChild(element5);
+
+        // Exercise 6
+        let element6 = document.createElement('div');
+        element6.className = "right-content";
+        document.querySelector('.main-content').appendChild(element6);
+
+        // Exercise 7
+        let element7 = document.createElement('img');
+        element7.className = "small-image";
+        element7.setAttribute('src', 'https://picsum.photos/200');
+        document.querySelector('.left-content').appendChild(element7);
+
+        // Exercise 8
+        function convertToWord(number) {
+            let numeros = ['', 'um', 'dois', 'tres', 'quatro', 'cinco', 'seis', 'sete', 'oito', 'nove', 'dez'];
+            return numeros[number];
+        }
+        let list = document.createElement('ul');
+
+        for (let i = 1; i < 11; i +=1){
+            let element8 = document.createElement('li');
+            element8.innerText = convertToWord(i);
+            list.appendChild(element8);
+        }
+        document.querySelector('.right-content').appendChild(list);
+
+        // Exercise 9
+        for (let i = 0; i < 3; i += 1) {
+            let element9 = document.createElement('h3');
+            document.querySelector('.main-content').appendChild(element9);
+        }
+
+        // Exercise 10
+        document.querySelector('h1').className = 'title';
+
+        // Exercise 11
+        for (let i = 0; i < 3; i += 1) {
+            document.querySelectorAll('h3')[i].className = 'description';
+        }
+
+        // Exercise 12
+        let element12 = document.querySelector('.left-content')
+        document.querySelector('.main-content').removeChild(element12);
+
+        // Exercise 13
+        document.querySelector('div .right-content').style.marginRight = 'auto';
+
+        // Exercise 14
+        document.querySelector('.center-content').parentElement.style.backgroundColor = 'green';
+
+        // Exercise 15
+        for (let i = 0; i < 2; i +=1) {
+            let element15 = document.querySelector('ul').lastElementChild;
+            document.querySelector('ul').removeChild(element15);
+        }
+    </script>
+</body>
+
+</html>
