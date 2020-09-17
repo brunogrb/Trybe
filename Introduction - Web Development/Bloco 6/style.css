@@ -1,17 +1,17 @@
 body {
   background-color: rgb(208, 211, 214);
-  text-align: center;
 }
 
 .header-content {
   background-color: rgb(246, 247, 248);
   border: 3px solid rgb(200, 200, 200);
   color: rgb(96, 97, 97);
-  padding: 50px;
+  padding: 30px 50px 30px 50px;
   width: 80%;
   margin-bottom: 20px;
   margin-left: auto;
   margin-right: auto;
+  text-align: center;
 }
 
 .form-content {
@@ -33,5 +33,13 @@ body {
 input[type = "text"] {
   font-size: 14px;
   padding: 5px;
-  width: 80%;
+  width: 95%;
+}
+
+.basic-info-content {
+  text-align: left;
+}
+
+button {
+  margin-top: 10px;
 }
