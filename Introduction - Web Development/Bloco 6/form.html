@@ -16,11 +16,11 @@
 
   <form action="" method="post" enctype="multipart/form-data" class="form-content">
 
-    <fieldset class="basic-info-content">
+    <fieldset class="info-content">
       <legend>Informações básicas</legend>
       <div class="line-content">
         <label for="full-name">Nome</label>
-        <input id="full-name" required="required" maxlength="40" placeholder="Digite seu nome aqui" type="text">
+        <input id="full-name" required="required" maxlength="40" placeholder="Digite seu nome" type="text">
       </div>
 
       <div class="line-content">
@@ -79,9 +79,31 @@
         <label for="apartamento">Apartamento</label>
       </div>
     </fieldset>
+    <fieldset>
+      <legend>Dados do seu ultimo emprego</legend>
 
-    <button type="submit">Enviar</button>
+      <div class="line-content">
+        <label for="resumo">Resumo do Curriculo</label>
+        <textarea id="resumo" placeholder="Digite um resumo do seu curriculo" maxlength="1000"></textarea>
+      </div>
 
+      <div class="line-content">
+        <label for="cargo">Cargo</label>
+        <input id="cargo" required="required" maxlength="40" placeholder="Digite seu cargo" type="text">
+      </div>
+
+      <div class="line-content">
+        <label for="descricao-cargo">Descrição do Cargo</label>
+        <input id="descricao-cargo" required="required" maxlength="500" placeholder="Descreva seu cargo" type="text">
+      </div>
+
+      <div class="line-content">
+        <label for="data-inicio">Data de inicio fomato(dd/mm/aaaa)</label>
+        <input id="data-inicio" required="required" maxlength="10" placeholder="exemplo: 01/01/2000" type="text">
+      </div>
+
+    </fieldset>
+    <button type="submit" value="submit">Enviar</button>
   </form>
   <script src="script.js"></script>
 </body>

@@ -36,8 +36,14 @@ input[type = "text"] {
   width: 95%;
 }
 
-.basic-info-content {
+.info-content {
   text-align: left;
+  margin-bottom: 5px;
+}
+
+#resumo {
+  width: 80%;
+  height: 50px;
 }
 
 button {
