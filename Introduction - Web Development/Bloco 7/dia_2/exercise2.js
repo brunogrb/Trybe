@@ -18,10 +18,6 @@ const lesson3 = {
   turno: 'noite',
 };
 
-function addProperties(object,key,value) {
-  object[key] = value;
-}
+const showObjectKeys = (object) => console.log(Object.keys(object));
 
-addProperties(lesson2,'turno','manhã');
-
-console.table(lesson2);
+showObjectKeys(lesson1);
