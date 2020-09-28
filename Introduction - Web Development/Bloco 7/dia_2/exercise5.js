@@ -19,6 +19,12 @@ const lesson3 = {
   turno: 'noite',
 };
 
-const showObjectValues = (object) => console.log(Object.values(object));
+function allLessons() {
+  let lessons = {};
+  lessons.lesson1 = lesson1;
+  lessons.lesson2 = lesson2;
+  lessons.lesson3 = lesson3;
+  console.log(lessons);
+}
 
-showObjectValues(lesson1);
+allLessons();
