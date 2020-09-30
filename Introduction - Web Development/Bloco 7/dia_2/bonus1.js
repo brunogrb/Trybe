@@ -27,20 +27,18 @@ function allLessons() {
   return lessons;
 }
 
-const all = allLessons();
+// const all = allLessons();
 
-Object
+// function sumStudents(object, keys) {
+//   let numberStudents = 0;
+//   let objectKeys = Object.values(object);
+//   for (const key in objectKeys) {
+//     console.log(objectKeys[key]);
+//     if (key === keys) {
+//       numberStudents += object[key].materia;
+//     }
+//   }
+//   return numberStudents;
+// }
 
-function sumStudents(object, keys, value) {
-  let numberStudents = 0;
-  let objectKeys = Object.values(object);
-  for (const key in objectKeys) {
-    console.log(objectKeys[key]);
-    if (key === keys) {
-      numberStudents += object[key].materia;
-    }
-  }
-  return numberStudents;
-}
-
-console.log(sumStudents(all,'materia','Matemática'));
+// console.log(sumStudents(all,'materia','Matemática'));
