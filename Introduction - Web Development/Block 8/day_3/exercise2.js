@@ -66,9 +66,11 @@ const books = [
 
 
 function allNames() {
-  return books.reduce((store, value) => {
-    return store + value.author.name ;
-  }, []);
+  let a = books.reduce((store, value) => {
+    return `${store} ${value.author.name},` ;
+  }, "Nomes:");
+  a = a.replace(/.$/,".");
+  return a;
 }
-// console.log(allNames());
+
 assert.deepStrictEqual(allNames(), "Nomes: George R. R. Martin, J. R. R. Tolkien, Isaac Asimov, Frank Herbert, Stephen King, H. P. Lovecraft.");
