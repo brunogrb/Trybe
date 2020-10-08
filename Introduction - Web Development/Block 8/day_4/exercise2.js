@@ -1,15 +1,12 @@
-const assert = require('assert')
+const assert = require('assert');
+const { read } = require('fs');
 
 // Crie uma função sum que dado um número variável de elementos retorna a soma desses elementos. Ou seja:
 // Dica: use parâmetro rest.
 // escreva sum abaixo
 
 const sum = (...items) => {
-  let add = 0;
-  for (let index of items) {
-    add += index;
-  }
-  return add;
+  return items.reduce((store, value) => store + value, 0);
 };
 
 assert.strictEqual(sum(), 0)
