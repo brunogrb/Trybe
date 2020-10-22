@@ -69,7 +69,7 @@
   setTimeout(() => console.log(planetDistanceFromSun(jupiter)), 2000); // C
 -->
 
-3. The *getPlanet* function below prints the planet Mars synchronously. Modify *getPlanet*, so that Mars is printed asynchronously, after 4 seconds.
+3. The function *getPlanet* below prints the planet Mars synchronously. Modify *getPlanet*, so that Mars is printed asynchronously, after 4 seconds.
 
 <!-- 
   const getPlanet = () => {
@@ -86,22 +86,7 @@
 getPlanet(); // imprime Marte depois de 4 segundos
 -->
 
-4. Suponha que você precise simular uma mensagem enviada do robô *Curiosity* de Marte para a Terra. O *Curiosity* envia para a Terra a temperatura atual em Marte, gastando um tempo variável de até 5 segundos para que termine o envio. Crie a função *sendMarsTemperature*, que imprime a temperatura em Marte.
-
-<!-- 
-  const messageDelay = () => Math.floor(Math.random() * 5000);
-
-  const getMarsTemperature = () => {
-    const maxTemperature = 58;
-    return Math.floor(Math.random() * maxTemperature);
-  };
-
-  // crie a função sendMarsTemperature abaixo
-
-
-  sendMarsTemperature(); // imprime "Mars temperature is: 20 degree Celsius", por exemplo
-
--->
+4. Suppose you need to simulate a message sent from the *Curiosity* robot from Mars to Earth. *Curiosity* sends the current temperature on Mars to Earth, spending a variable time of up to 5 seconds for it to finish sending. Create the * sendMarsTemperature * function, which prints the temperature on Mars.
 
 **BONUS**
 
