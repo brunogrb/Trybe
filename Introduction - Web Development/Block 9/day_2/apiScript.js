@@ -49,7 +49,8 @@ const fetchJoke = () => {
  fetch(API_URL, myObject)
  .then(response => response.json())
  .then(data => appendJoke(data.joke));
-  const promise = new Promise((resolve, reject) => {
+ 
+  return promise = new Promise((resolve, reject) => {
     const numbers = generateRandomNumbers();
     const sum = sumOfAnArray(numbers);
     if (sum < 8000){
