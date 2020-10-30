@@ -25,7 +25,16 @@ describe('test if the ID exist or not', () => {
 // Test exercise 3
 
 // Test exercise 4
-
+describe('test to cointain some repositories in the URL', () => {
+  it('should verifies that the "sd-01-week4-5-project-todo-list" repo is not on the array', () => {
+    expect.assertions(1);
+    return getRepos('https://api.github.com/users/tryber/repos').then(response => expect(response).not.toContain('sd-01-week4-5-project-todo-list'));
+  });
+  it('should verifies that the "sd-01- week4-5-project-meme-generator" repo is not on the array', () => {
+    expect.assertions(1);
+    return getRepos('https://api.github.com/users/tryber/repos').then(response => expect(response).not.toContain('sd-01- week4-5-project-meme-generator'));
+  });
+});
 
 // Test exercise 5
 
