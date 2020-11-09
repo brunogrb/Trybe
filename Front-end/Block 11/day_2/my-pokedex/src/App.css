@@ -1,3 +1,7 @@
+body {
+  background-color: rgb(143, 110, 110);
+}
+
 .App {
   display: flex;
   flex-wrap: wrap;
@@ -12,5 +16,6 @@
   flex-direction: column;
   height: auto;
   margin: 5px;
+  text-align: center;
   width: 200px;
 }
