@@ -1,11 +1,11 @@
-body {
-  background-color: rgb(143, 110, 110);
-}
-
 .App {
   display: flex;
   flex-wrap: wrap;
   justify-content: left;
+}
+
+body {
+  background-color: rgb(143, 110, 110);
 }
 
 .pokemons {
@@ -18,4 +18,9 @@ body {
   margin: 5px;
   text-align: center;
   width: 200px;
+}
+
+.title {
+  text-align: center;
+  width: 100%;
 }
