@@ -1,0 +1,26 @@
+.App {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+}
+
+body {
+  background-color: rgb(143, 110, 110);
+}
+
+.pokemons {
+  border: 2px solid lightblue;
+  border-radius: 5px;
+  box-sizing: border-box;
+  display: flexbox;
+  flex-direction: column;
+  height: auto;
+  margin: 5px;
+  text-align: center;
+  width: 200px;
+}
+
+.title {
+  text-align: center;
+  width: 100%;
+}
