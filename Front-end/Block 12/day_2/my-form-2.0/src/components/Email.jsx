@@ -5,7 +5,7 @@ class Email extends React.Component {
     const { value, changeHandler } = this.props;
 
     // let error = undefined;
-    // const regex = /^[a-z0-9.]+@[a-z0-9]+\.[a-z]+\.([a-z]+)?$/i;
+    // const regex = ^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[A-Z0-9.-]+\.[A-Z]{2,}$;
     // if (value.match(regex)) error = "Email inválido!";
 
     return(
