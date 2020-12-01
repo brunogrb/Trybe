@@ -6,7 +6,7 @@ This repository contains all learning activities developed by *[Bruno Sordi Lope
 
 The program has more than **1,500 hours** of classroom and online classes and covers front-end, back-end, computer science, software engineering, agile methodologies, and soft skills.
 
-## Introduction - Web Development :hourglass_flowing_sand:
+## Introduction - Web Development :heavy_check_mark:
 ##### Block 1: Introduction - Unix & Shell
 - [x] 1-3: *Unix & Bash - Part 1*
 - [x] 1-4: *Unix & Bash - Part 2*
@@ -28,7 +28,6 @@ The program has more than **1,500 hours** of classroom and online classes and co
 - [x] 4-4: *JavaScript - Objects and functions*
 - [x] 4-5: *[Project - Playground Functions]()*
 ##### Block 5: Introduction - JavaScript - Projects
-
 - [x] 5-1: *JavaScript - DOM and selectors*
 - [x] 5-2: *JavaScript - Working with elements*
 - [x] 5-3: *JavaScript - Events*
@@ -38,8 +37,6 @@ The program has more than **1,500 hours** of classroom and online classes and co
 - [x] 5-7: *[Project - To Do List]()*
 - [x] 5-7: *[Project - Guess the Color]()*
 - [x] 5-7: *[Project - Mysterious Card]()*
-
-## Front-end development :hourglass_flowing_sand:
 ##### Block 6: Introduction - Front-end
 - [x] 6-1: *HTML & CSS - Forms*
 - [x] 6-2: *JavaScript libraries and CSS frameworks*
@@ -66,6 +63,8 @@ The program has more than **1,500 hours** of classroom and online classes and co
 - [x] 10-1: *Jest - Asynchronous Tests*
 - [x] 10-2: *Jest - Simulating behaviors*
 - [x] 10-3: *[Project - Asynchronous Jest and Mocking]()*
+
+## Front-end development :hourglass_flowing_sand:
 ##### Block 11: Introduction - React
 - [x] 11-1: *'Hello, world!' in React!*
 - [x] 11-2: *React Components*
