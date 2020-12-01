@@ -45,43 +45,43 @@ The program has more than **1,500 hours** of classroom and online classes and co
 - [x] 6-2: *JavaScript libraries and CSS frameworks*
 - [x] 6-3: *CSS Flexbox - Part 1*
 - [x] 6-4: *CSS Flexbox - Part 2*
-- [ ] 6-5: *[Project - Facebook home]()*
+- [x] 6-5: *[Project - Facebook home]()*
 ##### Block 7: JavaScript ES6 & Unit Tests
-- [ ] 7-1: *JavaScript ES6 - let, const, arrow functions and template literals*
-- [ ] 7-2: *JavaScript ES6 - Objects*
-- [ ] 7-3: *JavaScript unit tests*
-- [ ] 7-4: *Testing in small steps*
-- [ ] 7-5: *[Project - JavaScript Unit Tests]()*
+- [x] 7-1: *JavaScript ES6 - let, const, arrow functions and template literals*
+- [x] 7-2: *JavaScript ES6 - Objects*
+- [x] 7-3: *JavaScript unit tests*
+- [x] 7-4: *Testing in small steps*
+- [x] 7-5: *[Project - JavaScript Unit Tests]()*
 ##### Block 8: JavaScript ES6
-- [ ] 8-1: *JavaScript ES6 - Higher Order Functions - forEach, find, filter, some, every, sort*
-- [ ] 8-2: *JavaScript ES6 - Higher Order Functions - map and reduce*
-- [ ] 8-3: *JavaScript ES6 - spread operator, rest parameter, destructuring and more*
-- [ ] 8-4: *[Project - Zoo functions]()*
+- [x] 8-1: *JavaScript ES6 - Higher Order Functions - forEach, find, filter, some, every, sort*
+- [x] 8-2: *JavaScript ES6 - Higher Order Functions - map and reduce*
+- [x] 8-3: *JavaScript ES6 - spread operator, rest parameter, destructuring and more*
+- [x] 8-4: *[Project - Zoo functions]()*
 ##### Block 9: Asynchronicity & Callbacks
-- [ ] 9-1: *First steps at Jest*
-- [ ] 9-2: *Asynchronous JavaScript and Callbacks*
-- [ ] 9-3: *JavaScript Promises*
-- [ ] 9-4: *[Project - Shopping Cart]()*
+- [x] 9-1: *First steps at Jest*
+- [x] 9-2: *Asynchronous JavaScript and Callbacks*
+- [x] 9-3: *JavaScript Promises*
+- [x] 9-4: *[Project - Shopping Cart]()*
 ##### Block 10: Jest
-- [ ] 10-1: *Jest - Asynchronous Tests*
-- [ ] 10-2: *Jest - Simulating behaviors*
-- [ ] 10-3: *[Project - Asynchronous Jest and Mocking]()*
+- [x] 10-1: *Jest - Asynchronous Tests*
+- [x] 10-2: *Jest - Simulating behaviors*
+- [x] 10-3: *[Project - Asynchronous Jest and Mocking]()*
 ##### Block 11: Introduction - React
-- [ ] 11-1: *'Hello, world!' in React!*
-- [ ] 11-2: *React Components*
-- [ ] 11-3: *[Project - Movie Cards Library]()*
+- [x] 11-1: *'Hello, world!' in React!*
+- [x] 11-2: *React Components*
+- [x] 11-3: *[Project - Movie Cards Library]()*
 ##### Block 12: React
-- [ ] 12-1: *Components with status*
-- [ ] 12-2: *React events and forms*
-- [ ] 12-3: *[Project - Movie Cards Library Stateful]()*
+- [x] 12-1: *Components with status*
+- [x] 12-2: *React events and forms*
+- [x] 12-3: *[Project - Movie Cards Library Stateful]()*
 ##### Block 13: React Component life cycle
-- [ ] 13-1: *Improving component reuse: props.children and PropTypes*
-- [ ] 13-2: *React component life cycle*
-- [ ] 13-3: *React Router*
-- [ ] 13-4: *[Project - Movie Cards Library CRUD]()*
+- [x] 13-1: *Improving component reuse: props.children and PropTypes*
+- [x] 13-2: *React component life cycle*
+- [x] 13-3: *React Router*
+- [x] 13-4: *[Project - Movie Cards Library CRUD]()*
 ##### Block 14: Agile Methodologies
-- [ ] 14-1: *Agile Methodologies*
-- [ ] 14-2: *[Project - Frontend Online Store]()*
+- [x] 14-1: *Agile Methodologies*
+- [x] 14-2: *[Project - Frontend Online Store]()*
 ##### Block 15: React RTL
 - [ ] 15-1: *Testing React with the React Testing Library*
 - [ ] 15-2: *Testing React with the React Testing Library - Part 2*
