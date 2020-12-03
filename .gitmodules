@@ -1,0 +1,9 @@
+[submodule "Front-end/Block 15/day_1/Front-end/Block"]
+	path = Front-end/Block 15/day_1/Front-end/Block
+	url = git@github.com:tryber/exercise-todo-list.git
+[submodule "Front-end/Block 15/day_1/Front-end/Block 15/day_1/exercise-todo-list"]
+	path = Front-end/Block 15/day_1/Front-end/Block 15/day_1/exercise-todo-list
+	url = git@github.com:tryber/exercise-todo-list.git
+[submodule "Front-end/Block 15/day_1/exercise-todo-list"]
+	path = Front-end/Block 15/day_1/exercise-todo-list
+	url = git@github.com:tryber/exercise-todo-list.git
